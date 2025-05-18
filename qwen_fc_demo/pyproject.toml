@@ -1,0 +1,14 @@
+[project]
+name = "qwen-fc-demo"
+version = "0.1.0"
+description = "使用千问大模型实现的论文检索与分析工具"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arxiv==2.2.0",
+    "dashscope==1.13.6",
+    "feedparser==6.0.11",
+    "openai==1.79.0",
+    "python-dotenv==1.1.0", 
+    "requests==2.32.3"
+]
