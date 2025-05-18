@@ -1,3 +1,4 @@
 .env
 papers/*
 *.egg-info
+__pycache__
